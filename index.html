@@ -50,9 +50,13 @@
         /* Specific Header Styling */
         .header-content {
             background-color: #0056b3; /* Blue background */
-            color: white; /* White text */
+            color: white !important; /* White text with high specificity */
             padding: 20px;
             text-align: center;
+        }
+
+        .header-content h1 {
+            color: white; /* Enforcing white color for h1 inside header */
         }
 
         /* Table of Contents Dropdown */
