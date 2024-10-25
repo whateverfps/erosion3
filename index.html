@@ -1,208 +1,175 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprehensive Erosion Control Pricing Model</title>
+    <title>Erosion Control Pricing Model</title>
     <style>
-        /* General Styling */
+        /* Shifts all content to the right by 1 inch */
         body {
+            margin-left: 1in;
+            box-sizing: border-box;
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f8f9fa;
+        }
+
+        h1, h2, h3 {
             color: #333;
+        }
+
+        h2, h3 {
+            color: #555;
+        }
+
+        ul {
             margin: 0;
-            padding: 0;
+            padding: 0 0 10px 20px;
         }
-        /* Header Styling */
-        header {
-            background-color: #0056b3;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.2em;
-            margin: 0;
-        }
-        /* Section Headings */
-        h2 {
-            color: #0056b3;
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 5px;
-            margin-top: 30px;
-        }
-        /* Table of Contents */
-        .table-of-contents {
-            list-style-type: none;
-            padding: 0;
-            margin-bottom: 20px;
-        }
-        .table-of-contents li {
-            margin: 5px 0;
-            font-size: 1.1em;
-        }
-        .dropdown h3 {
-            cursor: pointer;
-            padding: 10px;
-            background-color: #0056b3;
-            color: white;
-            font-size: 1.2em;
-            margin: 0;
-        }
-        .dropdown-content {
-            display: none;
-            padding: 15px;
-            background-color: #ffffff;
-            border: 1px solid #ccc;
-            font-size: 1em;
-        }
-        .dropdown.active .dropdown-content {
-            display: block;
-        }
-        /* Content Boxes */
-        .content-box {
-            background-color: #ffffff;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        /* Responsive Table */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        /* Footer */
+
+        /* Footer styling */
         footer {
-            background-color: #0056b3;
-            color: white;
+            background-color: #f4f4f4;
+            padding: 20px;
             text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-        footer p {
-            margin: 0;
-            font-size: 0.9em;
+            margin-top: 50px;
+            font-size: 14px;
+            clear: both;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var dropdowns = document.querySelectorAll(".dropdown h3");
-            dropdowns.forEach(function (dropdown) {
-                dropdown.addEventListener("click", function () {
-                    this.parentElement.classList.toggle("active");
-                });
-            });
-        });
-    </script>
 </head>
-
 <body>
-    <header>
-        <h1>Comprehensive Erosion Control Pricing Model</h1>
-        <p>Designed to provide a structured and dynamic approach to pricing in the erosion control industry.</p>
-    </header>
 
-    <div class="container">
-        <section class="dropdown">
-            <h3>Table of Contents</h3>
-            <div class="dropdown-content">
-                <ol class="table-of-contents">
-                    <li><a href="#topics-improvement">Topics of Improvement and Focus for Erosion Control Pricing</a></li>
-                    <li><a href="#pricing-algorithm">Pricing Algorithm Overview</a></li>
-                    <li><a href="#detailed-breakdown">Detailed Breakdown of Each Component</a></li>
-                    <li><a href="#example-calculation">Example Calculation</a></li>
-                    <li><a href="#market-data-integration">How to Integrate Market Trend Data</a></li>
-                    <li><a href="#technical-implementation">Technical Implementation</a></li>
-                    <li><a href="#charts-visual">Sample Charts and Visual Breakdown</a></li>
-                    <li><a href="#conclusion">Conclusion</a></li>
-                </ol>
-            </div>
-        </section>
+<div id="main-content">
+    <section class="content" id="technical-implementation">
+        <h2>Technical Implementation</h2>
+        <p><strong>APIs and Data Feeds:</strong> Use financial market data APIs (e.g., Bloomberg, Quandl, Alpha Vantage) to pull real-time data directly into your pricing model. Integrate these APIs into your spreadsheet or ERP system for automated updates.</p>
+        <p><strong>Manual Updates:</strong> If API integration isn’t feasible, manually pull data from quarterly reports and update the model inputs in your Excel or other software as needed.</p>
+        <p><strong>Tools for Integration:</strong> Utilize Excel Add-Ons (like Power Query) or Google Sheets functions (IMPORTXML or IMPORTHTML) for real-time data pulls from online sources.</p>
+    </section>
 
-        <section class="content-box" id="topics-improvement">
-            <h2>Topics of Improvement and Focus for Erosion Control Pricing</h2>
-            <p>To enhance the current erosion control pricing model, the following areas should be prioritized for improvement and focus:</p>
-            <ul>
-                <li>Streamlining labor cost estimation</li>
-                <li>Material cost optimization</li>
-                <li>Equipment usage efficiency</li>
-                <li>Regional and environmental adjustments</li>
-                <li>Driving cost reductions</li>
-                <li>Compliance and regulatory focus</li>
-                <li>Risk management through better contingency planning</li>
-                <li>Incorporating market trends</li>
-            </ul>
-        </section>
+    <section class="content" id="conclusion">
+        <h2>Conclusion</h2>
+        <p>This comprehensive erosion control pricing model offers a structured approach to accurate and adaptable project cost estimation. Incorporating real-time data and adjusting for regional and economic factors ensures that this model remains both practical and competitive in the erosion control industry.</p>
+    </section>
 
-        <section class="content-box" id="pricing-algorithm">
-            <h2>Pricing Algorithm Overview</h2>
-            <p>The total project cost (C) is determined by summing up the individual cost components and factoring in a contingency for unforeseen risks. The formula is as follows:</p>
-            <code>
-                C = (L + M + E + R_A + D + P + I) * (1 + C_f)
-            </code>
-            <p>Where:</p>
-            <ul>
-                <li><strong>L</strong> = Labor Cost</li>
-                <li><strong>M</strong> = Material Cost</li>
-                <li><strong>E</strong> = Equipment Cost</li>
-                <li><strong>R_A</strong> = Regional Adjustment</li>
-                <li><strong>D</strong> = Drive Time and Site Accessibility Cost</li>
-                <li><strong>P</strong> = Permit and Compliance Cost</li>
-                <li><strong>I</strong> = Inspection Cost</li>
-                <li><strong>C_f</strong> = Contingency Factor (expressed as a percentage)</li>
-            </ul>
-        </section>
+    <div id="year-long-plan">
+        <h1>Year-Long Implementation Plan for Erosion Control Pricing Model</h1>
 
-        <section class="content-box" id="detailed-breakdown">
-            <h2>Detailed Breakdown of Each Component</h2>
-            <p><strong>Labor Cost (L):</strong> Calculated by multiplying task time, hourly wage, and crew size.</p>
-            <p><strong>Material Cost (M):</strong> Calculated by multiplying material quantity by unit price.</p>
-            <p><strong>Equipment Cost (E):</strong> Includes rental and fuel costs.</p>
-            <p><strong>Regional Adjustment (R_A):</strong> Accounts for geographic cost variations.</p>
-            <p><strong>Drive Time (D):</strong> Covers worker and equipment transportation costs.</p>
-            <p><strong>Permit & Compliance (P):</strong> Fees for necessary permits and regulations.</p>
-            <p><strong>Inspection (I):</strong> Costs related to necessary inspections, such as soil tests.</p>
-            <p><strong>Contingency Factor (C_f):</strong> Provides a buffer for unexpected costs.</p>
-        </section>
+        <h2>Phase 1: Initial Analysis & Model Setup (Months 1-2)</h2>
+        <h3>Goals:</h3>
+        <p>Establish a foundational understanding of the erosion control market, its unique cost drivers, and the current pricing structure. Customize the pricing model based on initial data inputs.</p>
 
-        <section class="content-box" id="example-calculation">
-            <h2>Example Calculation</h2>
-            <p><strong>Labor Cost (L):</strong> $10,000</p>
-            <p><strong>Material Cost (M):</strong> $8,000</p>
-            <p><strong>Equipment Cost (E):</strong> $5,000</p>
-            <p><strong>Regional Adjustment (R_A):</strong> 2% of (L + M + E) = $460</p>
-            <p><strong>Drive Time and Site Accessibility (D):</strong> $2,000</p>
-            <p><strong>Permit and Compliance (P):</strong> $1,500</p>
-            <p><strong>Inspection Cost (I):</strong> $1,000</p>
-            <p><strong>Contingency Factor (C_f):</strong> 5% of total cost = $1,222</p>
-            <p><strong>Total Project Cost (C):</strong> $29,358</p>
-        </section>
+        <h3>Steps:</h3>
+        <ul>
+            <li><strong>Market & Competitor Analysis</strong>
+                <ul>
+                    <li>Study industry pricing trends, project scopes, and any regulatory influences.</li>
+                    <li>Conduct competitor analysis to identify pricing benchmarks.</li>
+                </ul>
+            </li>
+            <li><strong>Data Collection</strong>
+                <ul>
+                    <li>Collect historical project costs, materials, labor, transportation, and environmental variables.</li>
+                    <li>Identify and establish data sources for weather patterns, soil types, and regional erosion control standards.</li>
+                </ul>
+            </li>
+            <li><strong>Model Setup</strong>
+                <ul>
+                    <li>Begin populating the pricing model with baseline data to create initial pricing ranges.</li>
+                    <li>Adjust any existing formulas or parameters within your model based on the specific findings from the competitor and market analysis.</li>
+                </ul>
+            </li>
+        </ul>
 
-        <section class="content-box" id="market-data-integration">
-            <h2>How to Integrate Market Trend Data</h2>
-            <p><strong>Material Cost Tracking:</strong> Use platforms like S&P Global and Bloomberg to monitor material prices.</p>
-            <p><strong>Labor Market Data:</strong> Track wage trends in various regions using data from BLS or PayScale.</p>
-            <p><strong>Equipment Cost and Fuel Prices:</strong> Monitor equipment rental rates and fuel costs using platforms like EquipmentWatch.</p>
-            <p><strong>Regional Adjustments:</strong> Use CPI or PPI to adjust regional cost estimates due to inflation.</p>
-            <p><strong>Permits and Regulatory Changes:</strong> Adjust compliance costs by monitoring local government updates.</p>
-        </section>
+        <h2>Phase 2: Model Calibration & Testing (Months 3-5)</h2>
+        <h3>Goals:</h3>
+        <p>Test the pricing model's accuracy and refine it based on real-time data from pilot projects.</p>
 
-        <footer>
-            <p>&copy; 2024 Paul Thibodeau - Erosion Control Pricing Model</p>
-        </footer>
+        <h3>Steps:</h3>
+        <ul>
+            <li><strong>Pilot Testing with Selected Projects</strong>
+                <ul>
+                    <li>Select small-scale projects as a test group for model validation.</li>
+                    <li>Track model-predicted vs. actual costs and revenue for each project.</li>
+                </ul>
+            </li>
+            <li><strong>Model Adjustment</strong>
+                <ul>
+                    <li>Use data from pilot testing to adjust model parameters, factoring in any unexpected cost variances (e.g., labor shifts, material availability).</li>
+                    <li>Create a feedback loop to document any common variances and adapt the model accordingly.</li>
+                </ul>
+            </li>
+            <li><strong>Stakeholder Feedback</strong>
+                <ul>
+                    <li>Engage with project managers and field supervisors to review the model’s performance and gather feedback on field conditions that could affect pricing.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Phase 3: Scaling & Iterative Optimization (Months 6-9)</h2>
+        <h3>Goals:</h3>
+        <p>Expand model use across more projects, iterating based on performance and aiming to align projected costs closely with actual outcomes.</p>
+
+        <h3>Steps:</h3>
+        <ul>
+            <li><strong>Broader Application Across Project Types</strong>
+                <ul>
+                    <li>Implement the model on mid-sized and more complex projects to assess scalability.</li>
+                    <li>Compare the initial model-predicted pricing to realized costs and revenue across diverse regions.</li>
+                </ul>
+            </li>
+            <li><strong>Continuous Data Integration</strong>
+                <ul>
+                    <li>Set up an automated system for ongoing data collection and integration into the pricing model.</li>
+                    <li>Incorporate environmental factors like seasonal weather changes that impact erosion severity.</li>
+                </ul>
+            </li>
+            <li><strong>Monthly Reviews & Adjustments</strong>
+                <ul>
+                    <li>Conduct monthly analysis sessions to evaluate project outcomes and recalibrate the model as needed.</li>
+                    <li>Implement minor adjustments to maintain alignment with fluctuating market conditions.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Phase 4: Full Implementation & Strategic Optimization (Months 10-12)</h2>
+        <h3>Goals:</h3>
+        <p>Achieve an accurate, fully-operational pricing model with scalability and predictive capabilities for future growth.</p>
+
+        <h3>Steps:</h3>
+        <ul>
+            <li><strong>Comprehensive Model Rollout</strong>
+                <ul>
+                    <li>Fully integrate the model into all projects across regions, utilizing feedback loops for ongoing refinement.</li>
+                    <li>Train pricing and project management teams on model use and interpretation of results.</li>
+                </ul>
+            </li>
+            <li><strong>Predictive Analytics & Long-Term Pricing Strategy</strong>
+                <ul>
+                    <li>Incorporate advanced analytics to improve forecasting capabilities for material costs, seasonal variations, and labor trends.</li>
+                    <li>Begin developing a long-term pricing strategy to improve contract acquisition and enhance project profitability.</li>
+                </ul>
+            </li>
+            <li><strong>Performance Review & Reporting</strong>
+                <ul>
+                    <li>Prepare an annual report that measures the model’s effectiveness, cost-saving achievements, and impact on profitability.</li>
+                    <li>Outline any long-term improvements or additional features to implement in future iterations.</li>
+                </ul>
+            </li>
+        </ul>
     </div>
+</div> <!-- Close main content container -->
+
+<footer>
+    <p>&copy; 2024 Erosion Control Pricing Model</p>
+    <p>Data and content originally created by <strong>Paul Thibodeau</strong>.</p>
+    <p>For more information, visit <a href="https://whateverfps.github.io/erosion-control-pricing-model/" target="_blank">https://whateverfps.github.io/erosion-control-pricing-model/</a></p>
+</footer>
+
 </body>
 </html>
+
