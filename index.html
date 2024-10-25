@@ -4,22 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erosion Control Pricing Model</title>
+    <title>Comprehensive Erosion Control Pricing Model</title>
     <style>
-        /* Shifts all content to the right by 1 inch */
+        /* Base styling for a clean, professional look */
         body {
-            margin-left: 1in;
-            box-sizing: border-box;
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 60px; /* Space for footer */
+            box-sizing: border-box;
         }
 
         h1, h2, h3 {
             color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
 
-        h2, h3 {
+        h2 {
             color: #555;
+        }
+
+        h3 {
+            color: #777;
+        }
+
+        p, ul {
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         ul {
@@ -27,23 +42,77 @@
             padding: 0 0 10px 20px;
         }
 
-        /* Footer styling */
-        footer {
-            background-color: #f4f4f4;
-            padding: 20px;
+        .content {
+            margin: 20px auto;
+            padding: 0 20px;
+            max-width: 800px;
+        }
+
+        /* Table of Contents Dropdown */
+        .dropdown {
             text-align: center;
-            margin-top: 50px;
-            font-size: 14px;
-            clear: both;
-            position: relative;
-            bottom: 0;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .dropdown-content {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
             width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        
+        footer p {
+            margin: 5px;
+        }
+
+        footer a {
+            color: #ffdd57;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
 
-<div id="main-content">
+    <!-- Main Content -->
+    <header class="content">
+        <h1>Erosion Control Pricing Model For TEC</h1>
+    </header>
+
+    <section class="dropdown">
+        <h3>Table of Contents</h3>
+        <div class="dropdown-content">
+            <ol>
+                <li><a href="#key-focus-areas">Key Focus Areas</a></li>
+                <li><a href="#pricing-algorithm">Pricing Algorithm Overview</a></li>
+                <li><a href="#detailed-breakdown">Detailed Breakdown of Each Component</a></li>
+                <li><a href="#example-calculation">Example Calculation</a></li>
+                <li><a href="#market-data-integration">How to Integrate Market Trend Data</a></li>
+                <li><a href="#technical-implementation">Technical Implementation</a></li>
+                <li><a href="#charts-visual">Sample Charts and Visual Breakdown</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ol>
+        </div>
+    </section>
+
     <section class="content" id="technical-implementation">
         <h2>Technical Implementation</h2>
         <p><strong>APIs and Data Feeds:</strong> Use financial market data APIs (e.g., Bloomberg, Quandl, Alpha Vantage) to pull real-time data directly into your pricing model. Integrate these APIs into your spreadsheet or ERP system for automated updates.</p>
@@ -56,7 +125,7 @@
         <p>This comprehensive erosion control pricing model offers a structured approach to accurate and adaptable project cost estimation. Incorporating real-time data and adjusting for regional and economic factors ensures that this model remains both practical and competitive in the erosion control industry.</p>
     </section>
 
-    <div id="year-long-plan">
+    <div id="year-long-plan" class="content">
         <h1>Year-Long Implementation Plan for Erosion Control Pricing Model</h1>
 
         <h2>Phase 1: Initial Analysis & Model Setup (Months 1-2)</h2>
@@ -164,6 +233,7 @@
     </div>
 </div> <!-- Close main content container -->
 
+<!-- Footer Section -->
 <footer>
     <p>&copy; 2024 Erosion Control Pricing Model</p>
     <p>Data and content originally created by <strong>Paul Thibodeau</strong>.</p>
