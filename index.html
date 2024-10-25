@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Erosion Control Pricing Model</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        /* Header Styling */
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2em;
+            margin: 0;
+        }
+        /* Section Headings */
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        /* Table of Contents */
+        .table-of-contents {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        .table-of-contents li {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+        .dropdown h3 {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .dropdown-content {
+            display: none;
+            padding: 15px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+        /* Content Boxes */
+        .content-box {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        /* Responsive Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        /* Footer */
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var dropdowns = document.querySelectorAll(".dropdown h3");
+            dropdowns.forEach(function (dropdown) {
+                dropdown.addEventListener("click", function () {
+                    this.parentElement.classList.toggle("active");
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Comprehensive Erosion Control Pricing Model</h1>
+        <p>Designed to provide a structured and dynamic approach to pricing in the erosion control industry.</p>
+    </header>
+
+    <div class="container">
+        <section class="dropdown">
+            <h3>Table of Contents</h3>
+            <div class="dropdown-content">
+                <ol class="table-of-contents">
+                    <li><a href="#topics-improvement">Topics of Improvement and Focus for Erosion Control Pricing</a></li>
+                    <li><a href="#pricing-algorithm">Pricing Algorithm Overview</a></li>
+                    <li><a href="#detailed-breakdown">Detailed Breakdown of Each Component</a></li>
+                    <li><a href="#example-calculation">Example Calculation</a></li>
+                    <li><a href="#market-data-integration">How to Integrate Market Trend Data</a></li>
+                    <li><a href="#technical-implementation">Technical Implementation</a></li>
+                    <li><a href="#charts-visual">Sample Charts and Visual Breakdown</a></li>
+                    <li><a href="#conclusion">Conclusion</a></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="content-box" id="topics-improvement">
+            <h2>Topics of Improvement and Focus for Erosion Control Pricing</h2>
+            <p>To enhance the current erosion control pricing model, the following areas should be prioritized for improvement and focus:</p>
+            <ul>
+                <li>Streamlining labor cost estimation</li>
+                <li>Material cost optimization</li>
+                <li>Equipment usage efficiency</li>
+                <li>Regional and environmental adjustments</li>
+                <li>Driving cost reductions</li>
+                <li>Compliance and regulatory focus</li>
+                <li>Risk management through better contingency planning</li>
+                <li>Incorporating market trends</li>
+            </ul>
+        </section>
+
+        <section class="content-box" id="pricing-algorithm">
+            <h2>Pricing Algorithm Overview</h2>
+            <p>The total project cost (C) is determined by summing up the individual cost components and factoring in a contingency for unforeseen risks. The formula is as follows:</p>
+            <code>
+                C = (L + M + E + R_A + D + P + I) * (1 + C_f)
+            </code>
+            <p>Where:</p>
+            <ul>
+                <li><strong>L</strong> = Labor Cost</li>
+                <li><strong>M</strong> = Material Cost</li>
+                <li><strong>E</strong> = Equipment Cost</li>
+                <li><strong>R_A</strong> = Regional Adjustment</li>
+                <li><strong>D</strong> = Drive Time and Site Accessibility Cost</li>
+                <li><strong>P</strong> = Permit and Compliance Cost</li>
+                <li><strong>I</strong> = Inspection Cost</li>
+                <li><strong>C_f</strong> = Contingency Factor (expressed as a percentage)</li>
+            </ul>
+        </section>
+
+        <section class="content-box" id="detailed-breakdown">
+            <h2>Detailed Breakdown of Each Component</h2>
+            <p><strong>Labor Cost (L):</strong> Calculated by multiplying task time, hourly wage, and crew size.</p>
+            <p><strong>Material Cost (M):</strong> Calculated by multiplying material quantity by unit price.</p>
+            <p><strong>Equipment Cost (E):</strong> Includes rental and fuel costs.</p>
+            <p><strong>Regional Adjustment (R_A):</strong> Accounts for geographic cost variations.</p>
+            <p><strong>Drive Time (D):</strong> Covers worker and equipment transportation costs.</p>
+            <p><strong>Permit & Compliance (P):</strong> Fees for necessary permits and regulations.</p>
+            <p><strong>Inspection (I):</strong> Costs related to necessary inspections, such as soil tests.</p>
+            <p><strong>Contingency Factor (C_f):</strong> Provides a buffer for unexpected costs.</p>
+        </section>
+
+        <section class="content-box" id="example-calculation">
+            <h2>Example Calculation</h2>
+            <p><strong>Labor Cost (L):</strong> $10,000</p>
+            <p><strong>Material Cost (M):</strong> $8,000</p>
+            <p><strong>Equipment Cost (E):</strong> $5,000</p>
+            <p><strong>Regional Adjustment (R_A):</strong> 2% of (L + M + E) = $460</p>
+            <p><strong>Drive Time and Site Accessibility (D):</strong> $2,000</p>
+            <p><strong>Permit and Compliance (P):</strong> $1,500</p>
+            <p><strong>Inspection Cost (I):</strong> $1,000</p>
+            <p><strong>Contingency Factor (C_f):</strong> 5% of total cost = $1,222</p>
+            <p><strong>Total Project Cost (C):</strong> $29,358</p>
+        </section>
+
+        <section class="content-box" id="market-data-integration">
+            <h2>How to Integrate Market Trend Data</h2>
+            <p><strong>Material Cost Tracking:</strong> Use platforms like S&P Global and Bloomberg to monitor material prices.</p>
+            <p><strong>Labor Market Data:</strong> Track wage trends in various regions using data from BLS or PayScale.</p>
+            <p><strong>Equipment Cost and Fuel Prices:</strong> Monitor equipment rental rates and fuel costs using platforms like EquipmentWatch.</p>
+            <p><strong>Regional Adjustments:</strong> Use CPI or PPI to adjust regional cost estimates due to inflation.</p>
+            <p><strong>Permits and Regulatory Changes:</strong> Adjust compliance costs by monitoring local government updates.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Paul Thibodeau - Erosion Control Pricing Model</p>
+        </footer>
+    </div>
+</body>
+</html>
